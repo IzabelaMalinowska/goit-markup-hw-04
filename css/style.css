@@ -301,6 +301,8 @@ border-color: var(--border-image);
 .icon-contact:hover {fill: var(--main-blue);
 cursor: pointer;}
 
+  
+
 .icon-item {display: flex;
 justify-items: center;
 justify-content: center;
@@ -314,7 +316,7 @@ margin-top: 0;
 }
 .icon-item:hover, .icon-item:focus { fill: var(--main-blue); cursor: pointer; border: 1px solid var(--main-blue);}
 
-.contact:hover svg, .contact:focus svg {-color1: var(--main-blue);}
+.contact:hover svg, .contact:focus svg {-color1: var(--main-blue); fill: var(--main-blue);}
 
 .icon-socialmedia-list {
   display: flex; 
